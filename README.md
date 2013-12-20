@@ -25,6 +25,15 @@ Git cloning with template variables.
                --desc 'gets it done' \
                --repo me/my-new-project
 
+### Clone a particular commit tag from src
+
+    gitemplate --name my-new-project \
+               --src git@github.com:me/my-old-template.git \
+               --commit v0.3
+               --dst ~/dev/my-new-project \
+               --desc 'gets it done' \
+
+
 [More](docs/examples.md)
 
 ## Built-in variables
